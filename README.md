@@ -33,7 +33,15 @@ Ao final dessa aula você terá uma noção inicial sobre testes automatizados e
 -------------------------------------------------------
 ### Você faz/utiliza TDD?
 
-**TDD NÃO é um framework**, é uma estratégia de codigicação. Como o próprio nome já diz (Test Driven Development) é desenvolvimento orientado por testes.
+**TDD NÃO é um framework**, é uma estratégia de codificação. Como o próprio nome já diz (Test Driven Development) é desenvolvimento orientado por testes.
+
+  - Entenda qual e a tarefa que você precisa fazer;
+  - Entenda o fluxo que deve acontecer quando você terminar seu código;
+  - Faça o teste que garanta que seu código faz o que se propõem;
+  - Depois começe a codigicar sua feature;
+  - caso sinta a necessidade de um novo componente, uma nova função;
+    - Faça um teste para validar a função que você visualiza;
+    - Depois codifique a função;
 
 
 ### Bibliotecas de teste `Jest` e `supertest`.
