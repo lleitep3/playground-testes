@@ -5,11 +5,11 @@ Um pouco sobre testes
 Ao final dessa aula você terá uma noção inicial sobre testes automatizados e sua importancia, também saberá como configurar um ambiente de testes e iniciar testes em uma aplicação typescript com express.
 
 ## Agenda
- - Testes: para que, por que e como?.
- - Tipos de testes.
- - Você faz/utiliza TDD?
- - Bibliotecas de teste `Jest` e `supertest`.
- - Métricas de teste
+ - [Testes: para que, por que e como?.](#testes-para-que-por-que-e-como)
+ - [Tipos de testes.](#tipos-de-testes)
+ - [Você faz/utiliza TDD?](#você-fazutiliza-tdd)
+ - [Bibliotecas de teste `Jest` e `supertest`.](#bibliotecas-de-teste-jest-e-supertest)
+ - [Métricas de teste](#metricas-de-cobertura-de-codigo)
 
 -------------------------------------------------------
 ### Testes: para que, por que e como?
@@ -43,7 +43,7 @@ Ao final dessa aula você terá uma noção inicial sobre testes automatizados e
     - Faça um teste para validar a função que você visualiza;
     - Depois codifique a função;
 
-
+-------------------------------------------------------
 ### Bibliotecas de teste `Jest` e `supertest`.
 
 ##### Instalando libs necessárias para o desenvolvimento:
@@ -86,6 +86,20 @@ Adicione o script que rodará nossos testes no `package.json`.
   - [Jest](https://github.com/facebook/jest#table-of-contents)
   - [Documentação Jest](https://jestjs.io/docs/pt-BR/getting-started)
   - [Supertest](https://github.com/visionmedia/supertest)
+
+-------------------------------------------------------
+### Métricas de cobertura de código
+
+Medem por onde seus testes passaram em seu código.
+
+  - **Lines** - *Percentual de linhas cobertas*
+  - **Functions** - *Percentual de funções cobertas*
+  - **Branches** - *Percentual de condições que foram cobertas nos seus testes*
+  - **Statements** - *Percentual de senários cobertos*
+
+#### Referências:
+  - [Jest configurando coveragethreshold](https://jestjs.io/docs/en/configuration#coveragethreshold-object)
+  - [Code Coverage](https://www.guru99.com/code-coverage.html)
 
 -------------------------------------------------------
 ### Tips to Deep
