@@ -13,6 +13,7 @@ Ao final dessa aula você terá uma noção inicial sobre testes automatizados e
 
 -------------------------------------------------------
 ### Testes: para que, por que e como?
+  - Aplicação legada?
   - Testes automatizados ajudam a garantir a consistência das entregas.
   - Trás segurança para o dia-dia dos desenvolvedores.
   - Ajuda a entender o software.
@@ -42,6 +43,9 @@ Ao final dessa aula você terá uma noção inicial sobre testes automatizados e
   - caso sinta a necessidade de um novo componente, uma nova função;
     - Faça um teste para validar a função que você visualiza;
     - Depois codifique a função;
+
+#### Referências:
+- [Quando usar TDD](https://dev.to/gpiress/quando-usar-tdd-1c18)
 
 -------------------------------------------------------
 ### Bibliotecas de teste `Jest` e `supertest`.
@@ -102,6 +106,14 @@ Medem por onde seus testes passaram em seu código.
   - [Code Coverage](https://www.guru99.com/code-coverage.html)
 
 -------------------------------------------------------
+### Vamos Falar sobre extremismo
+
+  - Código legado
+  - Relevancia questionável do coverage
+  - Quando usar TDD
+  - Cultura de testes
+
+-------------------------------------------------------
 ### Tips to Deep
 
  - [TestPyramid](https://martinfowler.com/bliki/TestPyramid.html)
@@ -109,8 +121,6 @@ Medem por onde seus testes passaram em seu código.
  - [Guia rápido de testes no front-end](https://dev.to/thayseonofrio/guia-rapido-de-testes-no-front-end-2lpc)
  - [Code Coverage e a ilusão de qualidade](https://robsoncastilho.com.br/2020/07/14/code-coverage-e-a-ilusao-de-qualidade/)
  - [6 características fundamentais de um teste bem escrito](https://robsoncastilho.com.br/2019/04/20/6-caracteristicas-fundamentais-de-um-teste-bem-escrito/)
-
-
 
 #### Livros
  - [XUnit Test Patterns: Refactoring Test Code](https://www.google.com/search?q=xUnit+Test+Patterns%3A+Refactoring+Test+Code)
